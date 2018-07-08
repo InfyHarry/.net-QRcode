@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.hirede.com</licenseUrl>
+    <projectUrl>http://192.168.1.12:7990/projects/BBCL</projectUrl>
+    <iconUrl>http://pt.hirede.com/Images/icon_hirede.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Baza Network 2015</copyright>
+    <tags>Base Class Library</tags>
+    <summary>八爪网络二维码组件</summary>
+    <dependencies>
+      <dependency id="QrCode.Net" version="0.4.0.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Baza.QRCode.dll" target="lib\net46" />
+    <file src="bin\Release\Baza.QRCode.pdb" target="lib\net46" />
+    <file src="bin\Release\Baza.QRCode.XML" target="lib\net46" />
+  </files>
+</package>
